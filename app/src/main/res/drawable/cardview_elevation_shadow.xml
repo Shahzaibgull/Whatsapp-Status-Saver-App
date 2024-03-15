@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="1dp" android:right="1dp" android:left="1dp">
+        <shape>
+            <corners android:radius="10dp" /> <!-- cardCornerRadius value -->
+            <solid android:color="@color/white" /> <!-- cardBackgroundColor value -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="10dp" /> <!-- cardCornerRadius value -->
+            <solid android:color="@color/white" /> <!-- Shadow color -->
+        </shape>
+    </item>
+</layer-list>
